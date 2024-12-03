@@ -32,14 +32,14 @@ public class Auto {
         System.out.println("Auto kiihtyy");
         bensanMaara -= 1;
     }
-
+    // Näyttää tiedot -metodi
     public void naytaTiedot(){
         System.out.println("Merkki: " + merkki);
         System.out.println("Malli: " + malli);
         System.out.println("Vuosimalli: " + vuosiMalli);
         System.out.println("Bensan määrä: " + bensanMaara);
     }
-
+    // Tankkaus-metodi
     public void tankkaa(int tankkaus){
         System.out.println("Tankissa bensaa ennen tankkausta: " + bensanMaara);
         System.out.println("Tankkaus: " + tankkaus);
