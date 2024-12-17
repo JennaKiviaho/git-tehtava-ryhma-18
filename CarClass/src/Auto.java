@@ -1,7 +1,7 @@
 public class Auto {
-    String merkki;
-    String malli;
-    int bensanMaara;
+    String merkki; // auton merkki
+    String malli; // auton malli
+    int bensanMaara; // auton bensamaara
     int vuosiMalli; // auton vuosimalli
     double rengasPaine; // rengaspaine (bar)
     
@@ -21,12 +21,12 @@ public class Auto {
         this.rengasPaine = r;
     }
 
-    public void jarruta() {
-        System.out.println("Auto jarruttaa");
+    public void jarruta() { // tulostaa "Auto jarruttaa"
+        System.out.println("Auto jarruttaa"); 
     }
 
-    public void kiihdyta() {
-        if (bensanMaara <= 0){
+    public void kiihdyta() { // tarkistaa onko bensaa, jos on niin bensa vahenee
+        if (bensanMaara <= 0){ 
             System.out.println("Ei bensaa");
         }
         System.out.println("Auto kiihtyy");
